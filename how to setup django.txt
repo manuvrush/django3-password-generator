@@ -1,0 +1,39 @@
+python -m pip install django
+C:\Users\joshi>django-admin startproject password_generator
+
+C:\Users\joshi>cd password_generator
+
+C:\Users\joshi\password_generator>dir
+ Volume in drive C has no label.
+ Volume Serial Number is E8E7-898C
+
+ Directory of C:\Users\joshi\password_generator
+
+09/15/2023  04:10 PM    <DIR>          .
+09/15/2023  04:10 PM    <DIR>          ..
+09/15/2023  04:10 PM               696 manage.py
+09/15/2023  04:10 PM    <DIR>          password_generator
+               1 File(s)            696 bytes
+               3 Dir(s)  82,530,791,424 bytes free
+
+C:\Users\joshi\password_generator>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+September 15, 2023 - 16:13:01
+Django version 4.2.5, using settings 'password_generator.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[15/Sep/2023 16:13:17] "GET / HTTP/1.1" 200 10664
+Not Found: /favicon.ico
+[15/Sep/2023 16:13:17] "GET /favicon.ico HTTP/1.1" 404 2122
+
+C:\Users\joshi\password_generator-project>python manage.py startapp generator
+
+$ git config --global user.name "Manoj Joshi"
+$ git config --global user.email joshi_manpra@yahoo.co.in
